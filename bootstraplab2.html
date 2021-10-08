@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstraplab2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+     @media (max-width:767px)
+     {
+         #content
+         {
+             order: 3;
+             height: 200px;
+         }
+         #nav
+         {
+             height: 100px;
+         }
+         #widget
+         {
+             
+             height: 100px;
+         }
+     }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="margin: 20px; height: 300px; color: white; font-size: 20px;text-align: center;">
+           <div id="nav"class= "col-lg-3 col-md-3 col-sm-12" style="background-color: #0072BB;">NAV</div>
+           <div id="content"class= "col-lg-6 col-md-6 col-sm-12" style="background-color:#F8931D;">CONTENT</div>
+           <div id="widget"class= "col-lg-3 col-md-3 col-sm-12" style="background-color: #EE1C25;">WIDGET</div>
+        </div>
+    </div>
+</body>
+</html>
